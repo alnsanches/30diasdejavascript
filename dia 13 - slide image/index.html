@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dia 13 - Image Slider</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <div class="content">
+        <div class="images">
+            <img src="./img/image0.jpg">
+            <img src="./img/image1.jpg">
+            <img src="./img/image2.jpg">
+            <img src="./img/image3.jpg">
+            <img src="./img/image4.jpg">
+            <img src="./img/image5.jpg">
+            <img src="./img/image6.jpg">
+        </div>
+        <div class="btn-slides">
+            <span onclick="btn_slide(1)"></span>
+            <span onclick="btn_slide(2)"></span>
+            <span onclick="btn_slide(3)"></span>
+            <span onclick="btn_slide(4)"></span>
+            <span onclick="btn_slide(5)"></span>
+            <span onclick="btn_slide(6)"></span>
+        </div>
+        <div class="sliders left" onclick="side_slide(-1)">
+            <span class="fas fa-angle-left"></span>
+        </div>
+        <div class="sliders right" onclick="side_slide(1)">
+            <span class="fas fa-angle-right"></span>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
